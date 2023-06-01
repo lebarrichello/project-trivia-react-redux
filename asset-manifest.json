@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lebarrichello.github.io/lebarrichello-project-trivia-react-redux/static/css/main.26b5fd31.css",
+    "main.js": "/lebarrichello.github.io/lebarrichello-project-trivia-react-redux/static/js/main.628d9116.js",
+    "index.html": "/lebarrichello.github.io/lebarrichello-project-trivia-react-redux/index.html",
+    "main.26b5fd31.css.map": "/lebarrichello.github.io/lebarrichello-project-trivia-react-redux/static/css/main.26b5fd31.css.map",
+    "main.628d9116.js.map": "/lebarrichello.github.io/lebarrichello-project-trivia-react-redux/static/js/main.628d9116.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26b5fd31.css",
+    "static/js/main.628d9116.js"
+  ]
+}
