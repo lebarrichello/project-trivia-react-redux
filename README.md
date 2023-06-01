@@ -2,7 +2,7 @@
 
 Projeto desenvolvido em grupo no módulo de Front-End da Trybe
 
-<p>Acesse o projeto em produção <a href="https://lebarrichello-project-trivia-react-redux.vercel.app/" target="_blank">clicando aqui</a></p>
+<p>Acesse o projeto em produção <a href="https://project-trivia-react-redux-lebarrichello.vercel.app/" target="_blank">clicando aqui</a></p>
 
 ## 🎯 Objetivo
 
