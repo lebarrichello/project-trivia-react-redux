@@ -1,0 +1,87 @@
+header {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding: 1%;
+  position: relative;
+  width: 100vw;
+}
+
+.triviaTrybe {
+  color: blueviolet;
+  font-family: Amatic SC , sans-serif;
+}
+
+.containerImg {
+  align-items: center;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  border-radius: 100%;
+  width: 50px;
+}
+
+.containerName {
+  align-items: center;
+  display: flex;
+  font-size: x-large;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.containerScore {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.textScore {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
+}
+
+.iconStar {
+  color: orange;
+  font-size: larger;
+  margin-right: 5px;
+}
+
+.points {
+  margin-right: 5px;
+}
+
+@media screen and ( max-width : 420px ) {
+
+  .nameLogo {
+    display: none;
+  }
+
+  .containerName {
+    display: none;
+  }
+
+}
+
+@media screen and ( max-width : 300px ) {
+
+  header {
+    justify-content: center;
+  }
+
+  .containerImg {
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Railway&family=Amatic+SC:wght@400;700&display=swap') ;
+
+
+.container {
+  align-items: center;
+  background-color: blueviolet;
+  background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+  display: flex;
+  justify-content: center;
+
+  /* This is mostly intended for prototyping; please
+  download the pattern and re-host for production environments. Thank you! */
+}
+
+.containerFeedB {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  font-family: Amatic SC , sans-serif;
+  font-size: 1.8rem;
+  justify-content: center;
+  margin-top: 200px;
+  padding: 3%;
+}
+
+.podium {
+  background-color: #a5004d;
+  padding: 2em 0;
+  width: 100%;
+}
+
+.feedback {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.hits, .point {
+  color: blueviolet;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.containerFeedB button {
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: medium;
+  height: 40px;
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 150px;
+}
+
+.containerFeedB button:hover {
+  cursor: pointer;
+}
+
+.containerFeedB button:active {
+  transform: scale(0.98);
+}

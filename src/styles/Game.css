@@ -1,0 +1,42 @@
+.containerBtnNext {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.btnNext {
+  background-color: orange;
+  border: 0;
+  border-radius: 100px;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  padding: 10px;
+  position: relative;
+  width: 400px;
+}
+
+.btnNext:hover {
+  cursor: pointer;
+}
+
+.btnNext:active {
+  transform: scale(0.98);
+}
+
+@media screen and ( max-width : 420px ) {
+
+  .containerBtnNext {
+    justify-content: flex-start;
+    margin-top: 15px;
+    width: 100vw;
+  }
+
+  .btnNext {
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 90vw;
+  }
+}
+

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Railway&family=Amatic+SC:wght@400;700&display=swap') ;
+
+.confetti {
+  width: 100%;
+}
+
+.containerLeaderBoard {
+  align-items: center;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  font-family: Amatic SC , sans-serif;
+  font-size: 1.8rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  max-width: 450px;
+  padding: 2%;
+  position: relative;
+}
+
+.podio {
+  background-color: #3c1b7a;
+  background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+  border-radius: 5px 5px 0 0 ;
+  color: orange;
+  font-family: 'Amatic SC';
+  font-size: 1.8rem;
+  height: 330px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 2%;
+  text-align: center;
+  max-width: 450px;
+
+
+  .leader {
+    display: flex;
+  }
+
+  .crown {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    svg {
+      width: 3rem;
+    }
+  }
+}
+
+.topLeadersList {
+  display: flex;
+  min-height: 120px;
+  padding-top: rem;
+  position: relative;
+}
+
+.topLeadersList .image {
+  border: 3px solid orange;
+  border-radius: 50%;
+}
+
+.leader:nth-child(1) {
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &:after {
+    content: '1';
+    width: 30px;
+    height: 30px;
+    background: #ffc500;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    box-shadow: 1px 1px 4px black;
+  }
+
+  .image {
+    width: 130px;
+    height: 130px;
+  }
+
+  .crown {
+    top: -20%;
+
+    svg {
+      fill: #ffc500;
+    }
+  }
+
+}
+
+.leader:nth-child(2) {
+  color: white;
+  position: absolute;
+  left: 15%;
+  transform: translateX(-15%);
+  bottom: -20%;
+
+  &:after {
+    content: '2';
+    width: 30px;
+    height: 30px;
+    background: #d4d4d4;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    box-shadow: 1px 1px 4px black;
+  }
+
+  .image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .crown {
+    top: -25%;
+
+    svg {
+      fill: #d4d4d4;
+    }
+  }
+}
+
+.leader:nth-child(3) {
+  color: white;
+  position: absolute;
+  left: 85%;
+  transform: translateX(-85%);
+  bottom: -20%;
+
+  &:after {
+    content: '3';
+    width: 30px;
+    height: 30px;
+    background: #ab6528;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    box-shadow: 1px 1px 4px black;
+  }
+
+  .image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .crown {
+    top: -25%;
+
+    svg {
+      fill: #ab6528;
+    }
+  }
+}
+
+.leaderName {
+  position: absolute;
+  text-align: center;
+  color: orange;
+  font-weight: 900;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+}
+
+.infosPlayer {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.infos2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.picture {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.namePlayer {
+  color: blueviolet;
+  font-size: 1.7rem;
+}
+
+.playerScore {
+  color: rgb(73, 73, 73);
+  font-family: Railway , sans-serif;
+  font-size: 1.5rem;
+}
+
+.containerLeaderBoard .title{
+  color: #3c1b7a;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.containerLeaderBoard button {
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+  height: 40px;
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 150px;
+}
+
+.containerLeaderBoard button:hover {
+  cursor: pointer;
+}
+
+.containerLeaderBoard button:active {
+  transform: scale(0.98);
+}
+
+@media screen and ( max-width:375px) {
+
+  .leader:nth-child(1) {
+
+  .image {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .leader:nth-child(2) {
+
+    .image {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    .leader:nth-child(3) {
+
+      .image {
+          width: 80px;
+          height: 80px;
+        }
+      }
+}

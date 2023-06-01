@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Railway&family=Amatic+SC:wght@400;700&display=swap') ;
+
+body {
+  background-color: blueviolet;
+  background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.containerGame {
+  align-items: center;
+  background: #3c1b7a;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 500px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 120px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.containerInfoQuest {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.countdown, .numberQuestion {
+  color: orange;
+  font-family: Amatic SC , sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 5px;
+}
+
+.numberQuestion {
+  color: blueviolet;
+}
+
+.containerQuestions {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Amatic SC , sans-serif;
+  font-size: x-large;
+  font-weight: 900;
+  gap: 20px;
+  justify-content: center;
+  margin: 25px;
+}
+
+.qCategory {
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.qText {
+  padding: 10px 25px;
+}
+
+.answerOptions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  gap: 15px;
+  justify-content: center;
+  width: 100%;
+}
+
+.containerGame button {
+  background-color: white;
+  border: 2px solid orange;
+  border-radius: 100px;
+  font-family: sans-serif;
+  font-size: large;
+  padding: 10px;
+  width: 50%;
+}
+
+.containerGame button:hover {
+  cursor: pointer;
+}
+
+.containerGame button:active {
+  transform: scale(0.98);
+}
+
+.correct.clicked {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.correct:disabled {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.wrong.clicked {
+  border: 3px solid red;
+}
+
+.wrong:disabled {
+  border: 3px solid red;
+}
+
+@media screen and ( max-width : 540px ) {
+
+  .containerGame {
+    border-radius: 0;
+    box-shadow: none;
+    height: 70vh;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .containerGame button {
+    font-size: medium;
+    padding: 5px;
+    width: 90%;
+  }
+}
+
+@media screen and ( max-width : 300px ) {
+
+  .containerGame {
+    border-radius: 0;
+    box-shadow: none;
+    height: 70vh;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .containerQuestions {
+    font-size: medium;
+    font-weight: 900;
+  }
+
+  .containerGame button {
+    font-size: small;
+    padding: 5px;
+    width: 80%;
+  }
+}
+
+@media screen and ( min-width : 1024px ) {
+
+  .containerGame {
+    height: 70vh;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    width: 80vw;
+  }
+
+  .containerQuestions {
+    font-weight: 900;
+    margin: 10px;
+  }
+
+  .containerGame button {
+    font-size: large;
+    padding: 6px;
+    width: 40%;
+  }
+
+}
