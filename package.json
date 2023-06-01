@@ -11,7 +11,6 @@
     "@testing-library/user-event": "^13.5.0",
     "canvas-confetti": "^1.6.0",
     "crypto-js": "^4.1.1",
-    "gh-pages": "^5.0.0",
     "node-sass": "^7.0.3",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -24,7 +23,7 @@
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.2"
   },
-  "homepage": "lebarrichello.github.io/project-trivia-react-redux",
+  "homepage": "http://lebarrichello.github.io/project-trivia-react-redux",
   "scripts": {
     "cy": "env CY_CLI=true cypress run",
     "cy:open": "cypress open --e2e --browser chrome",
@@ -60,6 +59,7 @@
     "@trybe/eslint-config-frontend": "^1.7.1",
     "cypress": "^10.11.0",
     "cypress-multi-reporters": "^1.6.2",
+    "gh-pages": "^5.0.0",
     "jest-localstorage-mock": "2.4.26",
     "mocha": "^10.2.0",
     "mochawesome": "^7.1.3",
