@@ -24,7 +24,7 @@
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.2"
   },
-  "homepage": "lebarrichello.github.io/lebarrichello-project-trivia-react-redux",
+  "homepage": "lebarrichello.github.io/project-trivia-react-redux",
   "scripts": {
     "cy": "env CY_CLI=true cypress run",
     "cy:open": "cypress open --e2e --browser chrome",
