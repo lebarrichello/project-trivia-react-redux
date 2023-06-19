@@ -61,11 +61,12 @@ O aplicativo consome duas APIs públicas, uma para as perguntas e respostas e ou
 </details>
 
 <details>
-  <summary><strong>:construction: Funcionalidades em construção </strong></summary><br />
+  <summary><strong>:construction: Funcionalidades e melhorias a serem implementadas futuramente: </strong></summary><br />
 
  - [x] Opção para o jogador escolher o tema da pergunta
  - [x] Opção para o jogador escolher o nível de dificuldadade da pergunta
  - [x] Opção para o jogador escolher as opções de respostas entre multipla escolha e verdadeiro ou falso
+ - [x] Responsividade e melhorias no CSS da pagina 
  
 
 </details>
@@ -98,7 +99,12 @@ Para rodar todos os testes:
  
 ## 👩🏻‍💻  Projeto desenvolvido por :
   
-  <a href="https://github.com/lebarrichello/lebarrichello-project-trivia-react-redux/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=lebarrichello/lebarrichello-project-trivia-react-redux" />
-</a>
+
+  1.  https://github.com/fkschneider - Fernanda Schneider 
+  2.  https://github.com/LeonardoHBSantos - Leonardo Santos
+  3.  https://github.com/lebarrichello - Leticia Barrichello
+  4.  https://github.com/mateus23-oliveira - Mateus Oliveira
+  5.  https://github.com/BortnikDev - Samuel Bortnik
+
+ 
 
