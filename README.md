@@ -2,6 +2,13 @@
 
 Projeto desenvolvido em grupo no módulo de Front-End da Trybe
 
+
+
+https://github.com/lebarrichello/project-trivia-react-redux/assets/42211040/c4050fe7-ed31-4cbd-b380-6b1a7ec98c99
+
+
+
+
 <p>Acesse o projeto em produção <a href="https://project-trivia-react-redux-lebarrichello.vercel.app/" target="_blank">clicando aqui</a></p>
 
 ## 🎯 Objetivo
