@@ -70,10 +70,12 @@ O aplicativo consome duas APIs públicas, uma para as perguntas e respostas e ou
 <details>
   <summary><strong>:construction: Funcionalidades e melhorias a serem implementadas futuramente: </strong></summary><br />
 
- - [x] Opção para o jogador escolher o tema da pergunta
- - [x] Opção para o jogador escolher o nível de dificuldadade da pergunta
- - [x] Opção para o jogador escolher as opções de respostas entre multipla escolha e verdadeiro ou falso
- - [x] Responsividade e melhorias no CSS da pagina 
+ - [ ] Opção para o jogador escolher o tema da pergunta
+ - [ ] Opção para o jogador escolher o nível de dificuldadade da pergunta
+ - [ ] Opção para o jogador escolher as opções de respostas entre multipla escolha e verdadeiro ou falso
+ - [ ] Responsividade e melhorias no CSS da pagina
+ - [ ] Corrigir timer
+ - [ ] Corrigir numero das questoes 
  
 
 </details>
